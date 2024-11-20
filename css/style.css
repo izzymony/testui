@@ -268,12 +268,19 @@ visibility: visible;
         opacity: black;
         cursor: pointer;
     transition: transform 0.2s;
+    border-radius: 1rem;
     }
 
     .Gallery{
         width: 100%;
         margin-top: 4rem;
        
+    }
+
+    .grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+        gap: 1rem;
     }
   
     .imgs:hover {
@@ -367,12 +374,55 @@ visibility: visible;
         font-size: 20px;
         margin-top: 2rem;
     }
-    
+    .btn-fl{
+        background-color: white;
+        border: 1px solid white;
+        padding:0.7rem;
+        border-radius: 0.5rem;
+        font-size: 20px;
+        margin-top: 2rem;
+        font-weight: 100;
+    }
+    .btn-flex{
+        gap: 1rem;
+        display: flex;
+    }
+    footer{
+        background-color: #090966;
+    margin-top: 3rem;
+        padding: 2rem;
+    }
+
+    ol ,a{
+        text-decoration: none;
+        color: white;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        display: flex;
+    }
+    .ul-link{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        width: 300px;
+        margin: auto;
+        font-size: 18px;
+        gap: 2rem;
+    }
+    .footer-text{
+        text-align: center;
+        color: #797e9b;
+        margin-top: 3rem;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    hr{
+        border: 0.0003px solid  #797e9b;
+        margin-top: 3rem;
+    }
     @media (max-width:999px){
         .checkbtn{
             display: block;
            
         }
+        
        
         .flex-box{
             margin-top: 4rem;
